@@ -1,7 +1,22 @@
+
+import { NavLink } from "react-router-dom";
+
+
 function App() {
   return (
     <>
-      <div className="hi">Hello In Project</div>
+      
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <NavLink to="/login"><button>login</button></NavLink>
+              <NavLink to="/register"><button>register</button></NavLink>
+              <NavLink to="/services"><button>Services</button></NavLink>
+            </li>
+          </ul>
+        </nav>
+      </header>
     </>
   );
 }

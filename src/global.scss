@@ -1,3 +1,8 @@
+$dark :#111111;
+$main-color :#5BB543;
+$gray : #525252;
+$white :#EBEBEB;
+
 * {
   margin: 0;
   padding: 0;
@@ -7,4 +12,8 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
+}
+
+ul{
+  text-decoration: none;
 }
